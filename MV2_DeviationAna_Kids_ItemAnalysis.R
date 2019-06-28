@@ -2,7 +2,6 @@
 #  PG - Oct, 2018
 #
 
-library(reshape2)
 library(gtools) 
 library(lme4)
 library(plyr)
@@ -23,6 +22,7 @@ library(doBy)
 library(RColorBrewer)
 library("eyetrackingR")
 library(pbapply)
+library(reshape2)
 getwd()
 
 #source ("eyeRTrackLossCreateColumn.r")
